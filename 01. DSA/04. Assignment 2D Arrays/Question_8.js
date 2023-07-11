@@ -22,7 +22,6 @@ function arrayNum(nums, n) {
     return result;
   }
   
-  // Test the function
   const nums = [2, 5, 1, 3, 4, 7];
   const n = 3;
   const result = arrayNum(nums, n);
