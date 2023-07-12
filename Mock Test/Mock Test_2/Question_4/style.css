@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .navbar li {
+    display: inline-block;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  /* Media queries */
+  @media screen and (max-width: 768px) {
+    .navbar ul {
+      display: none;
+    }
+
+    .navbar li {
+      display: block;
+    }
+
+    .hamburger {
+      display: block;
+    }
+  }
